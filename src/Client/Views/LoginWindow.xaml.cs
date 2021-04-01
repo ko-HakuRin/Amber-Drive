@@ -1,8 +1,8 @@
-﻿using System;
+﻿using PGFTP.Client;
+using PGFTP.Enums;
+using System;
 using System.Windows;
 using System.Windows.Input;
-using PGFTP.Client;
-using PGFTP.Enums;
 using MessageBox = HandyControl.Controls.MessageBox;
 
 namespace Client.Views

@@ -1,5 +1,5 @@
-﻿using System.IO;
-using PGFTP.Client;
+﻿using PGFTP.Client;
+using System;
 
 namespace Client
 {
@@ -11,6 +11,6 @@ namespace Client
         public static string Username;
 
         public static FileWatcher FileWatcher;
-        public static string path;
+        public static string path = $"{ Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) }\\Desktop\\Amber Drive";
     }
 }

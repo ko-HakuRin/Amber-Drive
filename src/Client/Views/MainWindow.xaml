@@ -22,7 +22,6 @@
                 <TextBlock Text="Amber Drive" TextAlignment="Center" FontSize="28" FontFamily="Harlow Solid Italic" Margin="0,0,0,36"/>
                 <TextBlock Text="paloantom" TextAlignment="Right" Margin="0,16" TextDecorations="Underline" x:Name="NickTb" />
                 <Button Click="Sync_Click" Content="Синхронизировать" HorizontalAlignment="Stretch" Style="{ StaticResource ButtonPrimary }" />
-                <Button Margin="0,16" Content="Сменить Папку" HorizontalAlignment="Stretch" />
             </StackPanel>
         </Grid>
     </Border>
