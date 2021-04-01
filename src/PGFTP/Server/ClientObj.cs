@@ -6,9 +6,9 @@ namespace PGFTP.Server
 {
     public class ClientObj
     {
-        private TcpClient _client;
-        private StreamWriter _writer;
-        private StreamReader _reader;
+        private readonly TcpClient _client;
+        private readonly StreamWriter _writer;
+        private  readonly StreamReader _reader;
 
         public int Id { get; }
 
