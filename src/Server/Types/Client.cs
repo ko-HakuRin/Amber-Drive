@@ -12,10 +12,13 @@ namespace Server.Types
         public string Name { get; }
         public string Password { get; }
 
-        public Client(string name, string password)
+        public string Dir { get; }
+
+        public Client(string name, string password, int id)
         {
             Name = name;
             Password = password;
+            Dir = $"Static\\{name}";
         }
     }
 }
