@@ -4,6 +4,8 @@
     {
         OK,
         NotResponcing,
-        NotAccount
+        NotAccount,
+        ExistAccount,
+        BadRequest
     }
 }
