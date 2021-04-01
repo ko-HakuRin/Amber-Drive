@@ -40,9 +40,6 @@ namespace PGFTP.Server
 
         public void Stop()
         {
-            foreach (var item in Clients)
-                item.Close();
-
             _server.Stop();
         }
     }
