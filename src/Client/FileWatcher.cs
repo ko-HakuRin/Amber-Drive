@@ -32,7 +32,7 @@ namespace Client
 
         private void OnRenamed(object sender, RenamedEventArgs e)
         {
-            Thread.Sleep(150);
+            Thread.Sleep(300);
             var list = new Dictionary<string, string>()
             {
                 {e.OldName, e.Name}
@@ -44,7 +44,7 @@ namespace Client
         {
             if (!File.Exists(e.FullPath))
                 return;
-            Thread.Sleep(150);
+            Thread.Sleep(300);
             var dict = new Dictionary<string, byte[]>()
             {
                 {e.Name, File.ReadAllBytes(e.FullPath)}
@@ -54,7 +54,7 @@ namespace Client
 
         private void OnDeleted(object sender, FileSystemEventArgs e)
         {
-            Thread.Sleep(150);
+            Thread.Sleep(300);
             var list = new List<string>()
             {
                 {e.Name}
@@ -66,7 +66,7 @@ namespace Client
         {
             if (!File.Exists(e.FullPath))
                 return;
-            Thread.Sleep(150);
+            Thread.Sleep(300);
             var dict = new Dictionary<string, byte[]>()
             {
                 {e.Name, File.ReadAllBytes(e.FullPath)}
